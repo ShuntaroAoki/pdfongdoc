@@ -52,7 +52,7 @@ def main():
             # Upload image
             print('Uploading {}'.format(img))
             img_id = upload_file(drive, img, os.path.basename(img), upload_dir_id, 'image/jpeg', reader='anyone')
-            image_uri = 'http://drive.google.com/uc?export=view&id=' + img_id
+            image_uri = 'https://drive.google.com/uc?export=view&id=' + img_id
 
             # Paste image on gdoc
             print('Pasting image')

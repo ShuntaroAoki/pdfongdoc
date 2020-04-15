@@ -1,4 +1,6 @@
+*.pyc
 .python-version
+Pipfile.lock
 build/
 dist/
 *.spec
